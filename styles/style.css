@@ -625,8 +625,11 @@ button {
 
     .recursos__comunidad, .recursos__ingles, .recursos__cursos, .recursos__comunidades, .recursos__productividad {
         width: 250%;
-    
     }  
+
+    .recursos__titulo {
+        font-size: .75rem;
+    }
 }
 
 @media (max-width: 500px){
@@ -636,7 +639,7 @@ button {
     }  
 
     .recursos__titulo {
-        font-size: .75rem;
+        font-size: .6rem;
     }
 
 }
