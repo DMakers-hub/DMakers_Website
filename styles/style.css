@@ -628,3 +628,11 @@ button {
     
     }  
 }
+
+@media (max-width: 500px){
+    .recursos__comunidad, .recursos__ingles, .recursos__cursos, .recursos__comunidades, .recursos__productividad {
+        width: 600%;
+    
+    }  
+
+}
