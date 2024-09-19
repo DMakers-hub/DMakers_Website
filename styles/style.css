@@ -635,4 +635,8 @@ button {
     
     }  
 
+    .recursos__titulo {
+        font-size: .75rem;
+    }
+
 }
