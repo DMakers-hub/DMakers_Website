@@ -549,7 +549,11 @@ button {
     .recursos__comunidad, .recursos__ingles, .recursos__cursos, .recursos__comunidades, .recursos__productividad {
         width: 120%;
     
-    }    
+    }
+
+    .presentacion_recursos{
+        padding: 32%;
+    }
     
 }
 
