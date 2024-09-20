@@ -210,6 +210,20 @@ body {
     max-width: 90%;
 }
 
+.presentacion_recursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 110px 20px 50px 20px;
+    gap: 40px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
 .imagen_axol{
     display: block;
     width: 42%;  
@@ -680,9 +694,10 @@ button {
         padding-bottom: 3%;
     }
 
-    #presentacion_unico{
-        padding: 43%;
-    } 
+    .presentacion_recursos{
+        padding: 42%;
+    }
+
     
 
 }
