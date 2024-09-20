@@ -631,6 +631,10 @@ button {
     .recursos__titulo {
         font-size: 1rem;
     }
+
+     #presentacion_unico{
+        padding: 43%;
+    }
 }
 
 
@@ -677,5 +681,7 @@ button {
         gap: .5rem;/* Ajusta el espacio entre los botones */
         padding-bottom: 3%;
     }
+
+    
 
 }
