@@ -616,7 +616,7 @@ button {
 
     .container__botones {
         flex-direction: column; /* Cambia la dirección del flex para pantallas más pequeñas */
-        gap: 1em; /* Ajusta el espacio entre los botones */
+        gap: 1rem; /* Ajusta el espacio entre los botones */
     }
 
     .texto__parrafo {
@@ -625,21 +625,57 @@ button {
 
     .recursos__comunidad, .recursos__ingles, .recursos__cursos, .recursos__comunidades, .recursos__productividad {
         width: 250%;
-    }  
-
-    .recursos__titulo {
-        font-size: .75rem;
-    }
-}
-
-@media (max-width: 500px){
-    .recursos__comunidad, .recursos__ingles, .recursos__cursos, .recursos__comunidades, .recursos__productividad {
-        width: 600%;
     
     }  
 
     .recursos__titulo {
-        font-size: .7rem;
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 500px){
+    .recursos__titulo {
+        font-size: .75rem;
+    }
+    
+    
+    .recursos__comunidad, .recursos__ingles, .recursos__cursos, .recursos__comunidades, .recursos__productividad {
+        width: 550%;
+    
+    }  
+
+
+    .container {
+        width: 20%;
+        height: 200%; /* Ajusta la altura automáticamente */
+        padding: 11.5rem; /* Agrega relleno si es necesario */
+    }
+
+    .container__contenido {
+        bottom: 0rem; /* Ajusta la posición en pantallas más pequeñas */
+    }
+
+    .container__informaciones {
+        padding: 0rem; /* Ajusta el padding para pantallas más pequeñas */
+        gap: 5px; /* Ajusta el espacio entre los elementos */
+    }
+
+    .texto__parrafo {
+        font-size: 22px; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+    }
+
+    .container__input {
+        width: 80%; /* Ajusta el ancho al 100% del contenedor */
+        height: 25px; /* Ajusta la altura */
+        padding: 2rem; /* Ajusta el padding */
+        font-size: 24px; /* Ajusta el tamaño de la fuente */
+    }
+
+    .container__botones {
+        flex-direction: column; /* Cambia la dirección del flex para pantallas más pequeñas */
+        gap: .5rem;/* Ajusta el espacio entre los botones */
+        padding-bottom: 3%;
     }
 
 }
